@@ -28,7 +28,7 @@ Afterward, add the data modifier to the resulting class. The compiler will gener
 ___________________________________________________________________________________________________________________________________________________________________
 
 
-Smart casts
+Smart casts:
 
 Rewrite the following Java code using smart casts and the when expression:
 
@@ -48,6 +48,6 @@ public int eval(Expr expr) {
 
 ___________________________________________________________________________________________________________________________________________________________________
 
-Sealed classes
+Sealed classes:
 
 Reuse your solution from the previous task, but replace the interface with the sealed interface. Then you no longer need the else branch in when.
