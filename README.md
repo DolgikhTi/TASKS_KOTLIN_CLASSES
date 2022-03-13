@@ -1,4 +1,5 @@
-Data classes
+Data classes:
+
 Learn about classes, properties and data classes and then rewrite the following Java code to Kotlin:
 public class Person {
     private final String name;
