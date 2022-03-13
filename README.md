@@ -3,11 +3,15 @@ Data classes:
 Learn about classes, properties and data classes and then rewrite the following Java code to Kotlin:
 
 public class Person {
-    private final String name;
-    private final int age;
 
+    private final String name;
+    
+    private final int age;
+    
 public Person(String name, int age) {
+        
         this.name = name;
+        
         this.age = age;
     }
     
@@ -29,12 +33,15 @@ Smart casts
 Rewrite the following Java code using smart casts and the when expression:
 
 public int eval(Expr expr) {
+    
     if (expr instanceof Num) {
         return ((Num) expr).getValue();
     }
+    
     if (expr instanceof Sum) {
         Sum sum = (Sum) expr;
         return eval(sum.getLeft()) + eval(sum.getRight());
     }
+    
     throw new IllegalArgumentException("Unknown expression");
 }
