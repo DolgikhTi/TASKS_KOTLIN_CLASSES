@@ -21,3 +21,4 @@ public int getAge() {
 }
 
 Afterward, add the data modifier to the resulting class. The compiler will generate a few useful methods for this class: equals/hashCode, toString, and some others.
+___________________________________________________________________________________________________________________________________________________________________
