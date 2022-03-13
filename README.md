@@ -45,3 +45,9 @@ public int eval(Expr expr) {
     
     throw new IllegalArgumentException("Unknown expression");
 }
+
+___________________________________________________________________________________________________________________________________________________________________
+
+Sealed classes
+
+Reuse your solution from the previous task, but replace the interface with the sealed interface. Then you no longer need the else branch in when.
