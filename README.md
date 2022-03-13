@@ -27,7 +27,6 @@ public int getAge() {
 Afterward, add the data modifier to the resulting class. The compiler will generate a few useful methods for this class: equals/hashCode, toString, and some others.
 ___________________________________________________________________________________________________________________________________________________________________
 
-
 Smart casts:
 
 Rewrite the following Java code using smart casts and the when expression:
@@ -45,9 +44,9 @@ public int eval(Expr expr) {
     
     throw new IllegalArgumentException("Unknown expression");
 }
-
 ___________________________________________________________________________________________________________________________________________________________________
 
 Sealed classes:
 
 Reuse your solution from the previous task, but replace the interface with the sealed interface. Then you no longer need the else branch in when.
+___________________________________________________________________________________________________________________________________________________________________
