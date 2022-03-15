@@ -55,3 +55,15 @@ Rename on import:
 
 When you import a class or a function, you can specify a different name for it by adding as NewName after the import directive. It can be useful if you want to use two classes or functions with similar names from different libraries.
 Uncomment the code and make it compile. Rename Random from the kotlin package to KRandom, and Random from the java package to JRandom.
+___________________________________________________________________________________________________________________________________________________________________
+
+Extension functions:
+
+Learn about extension functions. Then implement the extension functions Int.r() and Pair.r() and make them convert Int and Pair to a RationalNumber.
+Pair is a class defined in the standard library:
+
+data class Pair<out A, out B>(
+    
+    val first: A,
+    val second: B
+)
